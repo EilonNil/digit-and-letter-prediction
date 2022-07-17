@@ -15,7 +15,8 @@ Original file is located at
 """
 
 import pandas as pd #עם זה נוכל לקרוא את הקובץ 
-df = pd.read_csv('/content/drive/MyDrive/data/csv/emnist-balanced-train.csv', header=None)
+df = pd.read_csv('/content/drive/MyDrive/data/csv/emnist-balanced-train.csv', header=None) 
+"""csv can be found in the google drive link in README, file was too large for me to share in github"""
 df.shape
 
 """מכיוון שיש לי 110000 תמונות אני לא צריך לבצע augmentation על התמונות"""
